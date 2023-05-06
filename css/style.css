@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background: linear-gradient(190deg, rgba(0, 0, 0, 0.8)70%,rgba(128, 128, 128, 0.3) );
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    z-index: 99999999999999999999;
+    width: 100%;
+}
+.encabezado nav ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+}
+.encabezado nav ul li{
+    list-style: none;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.encabezado nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Sigmar', cursive;
+    font-size: 1rem;
+}
+.encabezado nav ul li:hover{
+    transform: scale(1.4);
+}
+.encabezado nav ul li a img{
+    height: 12vh;
+}
+.whatsapp {
+    position: fixed; 
+    bottom: 16vh; 
+    right: 8vw;
+    z-index:999999999;
+   }
+   .whatsapp img {
+    width: 69px; 
+    opacity: 0.8;
+    animation: atencionboton 2s;
+    animation-iteration-count: 3;
+    animation-delay: 5s;
+}
+@keyframes atencionboton {
+    0%
+        {transform: scale(1);}
+    50%
+        {transform: scale(1.4);}
+    100%
+        {transform: scale(1);}
+}
+.pie{
+    background: linear-gradient(190deg, rgba(0, 0, 0, 0.8)70%,rgba(128, 128, 128, 0.3) );
+    height: 7vh;
+    position: fixed;
+    bottom: 0;
+    z-index: 99999999999999999999;
+    width: 100%;
+}
+.pie h2{
+    font-family: 'Sigmar', cursive;
+    font-size: 0.9rem;
+    color: antiquewhite;
+    padding: 1vw;
+}
