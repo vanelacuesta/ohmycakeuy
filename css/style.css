@@ -69,3 +69,6 @@
     color: antiquewhite;
     padding: 1vw;
 }
+.pie a img {
+    width: 1rem;
+}
