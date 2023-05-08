@@ -10,11 +10,21 @@
     z-index: 99999999999999999999;
     width: 100%;
 }
+@media (max-width : 765px){
+    .encabezado{
+        height: 7vh;
+    }
+}
 .encabezado nav ul {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     justify-items: start;
     align-items: center;
+}
+@media (max-width : 765px) {
+    .encabezado nav ul{
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
 }
 .encabezado nav ul li{
     list-style: none;
@@ -28,11 +38,21 @@
     font-family: 'Sigmar', cursive;
     font-size: 1rem;
 }
+@media (max-width : 765px) {
+    .encabezado nav ul li a {
+        font-size: 0.6rem;
+    }
+}
 .encabezado nav ul li:hover{
     transform: scale(1.4);
 }
 .encabezado nav ul li a img{
     height: 12vh;
+}
+@media (max-width : 767px) {
+    .encabezado nav ul li a img{
+        height: 6vh;
+    }
 }
 .whatsapp {
     position: fixed; 
@@ -68,11 +88,17 @@
 }
 .pie h2{
     font-family: 'Sigmar', cursive;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: antiquewhite;
     padding: 5px;
+    margin: 2px;
 }
 .pie a img {
     height: 7vh;
     padding: 5px;
+}
+@media (max-width:765px) {
+#carouselExampleSlidesOnly{
+    margin-top: 7vh;
+}
 }
