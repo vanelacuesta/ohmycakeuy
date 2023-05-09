@@ -75,12 +75,28 @@
     100%
         {transform: scale(1);}
 }
-.pie{
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+    padding-top: 3vh;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+.posts .igPost{
+    width: 10%;
+}
+.todoElPie{
     background: linear-gradient(190deg, rgba(0, 0, 0, 0.8)70%,rgba(128, 128, 128, 0.3) );
-    height: 7vh;
     position: fixed;
     bottom: 0;
     z-index: 99999999999999999999;
+    width: 100%;
+}
+.pie{
+    height: 7vh;
     width: 100%;
     display: flex;
     justify-content: start;
@@ -101,4 +117,11 @@
 #carouselExampleSlidesOnly{
     margin-top: 7vh;
 }
+}
+.pieDos h3{
+    font-size: 1.3vh;
+    text-align: center;
+    color: lightslategrey;
+    margin-top: 3px;
+    border-top: 0.5px lightslategray solid;
 }
