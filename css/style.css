@@ -75,26 +75,13 @@
     100%
         {transform: scale(1);}
 }
-.posts{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-    justify-items: center;
-    padding-top: 3vh;
-    justify-content: space-between;
-    width: 100%;
-    gap: 10px;
-}
-.posts .igPost{
-    width: 10%;
-}
 .todoElPie{
     background: linear-gradient(190deg, rgba(0, 0, 0, 0.8)70%,rgba(128, 128, 128, 0.3) );
     position: fixed;
     bottom: 0;
     z-index: 99999999999999999999;
     width: 100%;
-}
+} 
 .pie{
     height: 7vh;
     width: 100%;
